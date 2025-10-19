@@ -5,7 +5,7 @@
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
   <key for="port" id="d3" yfiles.type="portuserdata"/>
-  <key attr.name="Matlab文档链接" attr.type="string" for="node" id="d4">
+  <key attr.name="matlab_doc_links" attr.type="string" for="node" id="d4">
     <default xml:space="preserve"/>
   </key>
   <key attr.name="url" attr.type="string" for="node" id="d5"/>
