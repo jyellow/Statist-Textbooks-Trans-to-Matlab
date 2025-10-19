@@ -1,0 +1,37 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }{CSTYLE "" -1 257 "" 0 1 0 128 128 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 258 "" 0 1 0 128 128 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 259 "" 0 1 0 128 128 1 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Time
+s" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 0 0 0 1 2 
+2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 4 "" 0 "" {TEXT -1 38 "Taylor polynomial of the s
+ine function" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 256 "> " 0 "" {MPLTEXT 1 0 15 "pp:=[]; cc:=[];" }}}{EXCHG {PARA 
+256 "" 0 "" {TEXT -1 9 "The list " }{TEXT 257 2 "pp" }{TEXT -1 43 " co
+ntains the Taylor polynomials, the list " }{TEXT 258 2 "cc" }{TEXT -1 
+150 " the corresponding colours for plotting. Note that the coefficien
+ts of even powers of x vanish. Therefore, we consider only polynomials
+ of odd degree." }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 128 "for i from 1 \+
+to 30 do\npp:=[op(pp), convert(taylor(sin(x),x=0,2*i),polynom)]; cc:=[
+op(cc), COLOR(RGB, .2, .2+i/90, .9-i/60)];\nod:" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT 256 44 "Example: the Taylor polynomial of degree 13 " }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "op(7,pp);" }}}{EXCHG {PARA 256 "" 0 
+"" {TEXT -1 56 "Taylor polynomials of sin around x=0 of degrees 1 to 5
+9." }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 79 "plot([op(pp),sin(x)], x=0..
+27, y=-2..2, color=[op(cc),magenta], numpoints=200);" }}}{EXCHG {PARA 
+256 "" 0 "" {TEXT -1 54 "The Taylor polynomial of sin around x=0 of de
+gree 119." }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 44 "p:=convert(taylor(si
+n(x),x=0,120), polynom):" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 58 "Whe
+n plotting the result, rounding errors become visible. " }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 57 "plot(p, x=0..40, y=-1.5..1.5, color=blue, nump
+oints=300);" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 41 "If one works wit
+h higher precision (e.g. " }{TEXT 259 11 "Digits = 25" }{TEXT -1 32 ")
+, then these effects disappear." }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 
+69 "Digits:=25; plot(p, x=0..40, y=-1.5..1.5, color=blue, numpoints=30
+0);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "2 0 4" 
+95 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

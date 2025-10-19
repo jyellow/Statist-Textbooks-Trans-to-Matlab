@@ -1,0 +1,21 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT 256 45 "Integration with the help
+ of Taylor expansion" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "f:=int(exp(-t^2),t=0..x);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "exact:=evalf(subs(x=1,f),
+16);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "p:=convert(taylor(e
+xp(-t^2),t=0,9),polynom);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "num:=i
+nt(p,t=0..1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "num-exakt;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "err:=[];" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "for i from 1 to 12 do" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 48 "  p:=convert(taylor(exp(-t^2),t=0,2*i),polyno
+m);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "  num:=int(p,t=0..1);" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "  err:=[op(err),[2*i-2,log10(abs(nu
+m-exact))]];" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "plot(err,color=blue,thickness=2);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 1 0" 8 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,45 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 257 "" 0 1 255 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 258 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 
+255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 128 128 1 0 
+0 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "H
+eading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 
+-1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 
+}{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "Helvetica" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 1 
+{CSTYLE "" -1 -1 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "Helvet
+ica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 
+}{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "Helvetica" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 260 1 
+{CSTYLE "" -1 -1 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 4 "" 0 "" {TEXT -1 22 "Taylor polynomials of " }
+{TEXT 260 12 "x/(exp(x)-1)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restar
+t;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "f:=x->x/(exp(x)-1);" 
+}}}{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 15 "pp:=[]; cc:=[];" }}}
+{EXCHG {PARA 257 "" 0 "" {TEXT -1 9 "The list " }{TEXT 258 2 "pp" }
+{TEXT -1 70 " contains the Taylor polynomials of degree 2,4,10,16,26,.
+..; the list " }{TEXT 259 2 "cc" }{TEXT -1 49 " contains the correspon
+ding colors for plotting. " }}{PARA 258 "> " 0 "" {MPLTEXT 1 0 133 "fo
+r i from 1 to 10 do\npp:=[op(pp), convert(taylor(f(x),x=0,3+i*i),polyn
+om)]; cc:=[op(cc), COLOR(RGB,.2,.2+i^1.1/20,.9-i^1.1/15)];\nod:" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 256 44 "Example: the Taylor polynomial of
+ degree 16 " }{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "op(4,p
+p);" }}}{EXCHG {PARA 259 "" 0 "" {TEXT -1 66 "The Taylor polynomials a
+pproximate the function on the interval -2" }{XPPEDIT 18 0 "Pi;" "6#%#
+PiG" }{TEXT -1 8 " < x < 2" }{XPPEDIT 18 0 "Pi;" "6#%#PiG" }{TEXT -1 
+59 " only. The reason for this is the complex (!) pole at x = 2" }
+{XPPEDIT 18 0 "Pi;" "6#%#PiG" }{TEXT -1 121 "i. The greener the graph \+
+is, the higher is the degree of the polynomial. The function itself is
+ represented in the color " }{TEXT 257 5 "coral" }{TEXT -1 1 "." }}
+{PARA 260 "> " 0 "" {MPLTEXT 1 0 75 "plot([op(pp),f(x)], x=-7..7, y=-4
+..8, color=[op(cc),coral], numpoints=200);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{MARK "3 0 2" 14 }{VIEWOPTS 1 1 0 1 1 1803 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

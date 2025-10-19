@@ -1,0 +1,183 @@
+{VERSION 6 0 "Mac OS X" "6.0" }
+{USTYLETAB {PSTYLE "Normal266" -1 200 1 {CSTYLE "" -1 -1 "Arial" 1 12
+ 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "H
+eading 1" -1 3 1 {CSTYLE "" -1 -1 "Times New Roman" 1 18 0 0 0 1 2 1 2
+ 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal265" -1 
+201 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Mo
+nospaced" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Left Justified Maple Output" -1 12 1 {CSTYLE "" -1 -1 "
+Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0
+ 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 "Monospaced"
+ 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Normal264" -1 202 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2
+ 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help" -1 10 1
+ {CSTYLE "" -1 -1 "Monospaced" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal263" -1 203 1 {CSTYLE "" -1 
+-1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 -1 "Times New Roman" 1
+ 10 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE
+ "Line Printed Output" -1 6 1 {CSTYLE "" -1 -1 "Monospaced" 1 10 0 0 
+255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Norm
+al269" -1 204 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 
+0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE 
+"" -1 -1 "Times New Roman" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 8
+ 2 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "
+Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0
+ 2 2 -1 1 }{PSTYLE "Normal268" -1 205 1 {CSTYLE "" -1 -1 "Arial" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "He
+ading 3" -1 5 1 {CSTYLE "" -1 -1 "Times New Roman" 1 12 0 0 0 1 1 1 2 
+2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal267" -1 
+206 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1 
+"Monospaced" 1 10 64 128 64 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0
+ 2 2 -1 1 }{PSTYLE "Ordered List 1" -1 207 1 {CSTYLE "" -1 -1 "Times N
+ew Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1
+ 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Monospaced" 1 10 0 
+0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Or
+dered List 2" -1 208 1 {CSTYLE "" -1 -1 "Times New Roman" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered \+
+List 3" -1 209 1 {CSTYLE "" -1 -1 "Times New Roman" 1 12 0 0 0 1 2 2 2
+ 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Normal262" -1 
+210 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 211 1 {CSTYLE "" 
+-1 -1 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 
+2 108 2 0 2 2 -1 1 }{PSTYLE "Normal261" -1 212 1 {CSTYLE "" -1 -1 "Ari
+al" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 5" -1 213 1 {CSTYLE "" -1 -1 "Times New Roman" 1
+ 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 2 -1 1 }
+{PSTYLE "Annotation Title" -1 214 1 {CSTYLE "" -1 -1 "Times New Roman"
+ 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Normal260" -1 215 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2
+ 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkErro
+r" -1 216 1 {CSTYLE "" -1 -1 "Courier New" 1 12 255 0 255 1 2 2 1 2 2 
+1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkWarning" -1
+ 217 1 {CSTYLE "" -1 -1 "Courier New" 1 12 0 0 255 1 2 2 1 2 2 1 1 0 0
+ 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1 15 1 
+{CSTYLE "" -1 -1 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1
+ 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" 
+-1 -1 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 
+2 0 2 0 2 2 -1 1 }{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "Times \+
+New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Normal259" -1 218 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0
+ 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal2
+58" -1 219 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1
+ }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal257" -1 220 1 {CSTYLE "
+" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 
+2 2 -1 1 }{PSTYLE "Normal256" -1 221 1 {CSTYLE "" -1 -1 "Arial" 1 14 0
+ 0 0 1 2 2 1 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Das
+h Item" -1 16 1 {CSTYLE "" -1 -1 "Times New Roman" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Error" -1 8 1 
+{CSTYLE "" -1 -1 "Monospaced" 1 10 255 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 
+1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "
+Times New Roman" 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2
+ 0 2 2 -1 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times New Roman
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Normal270" -1 222 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2
+ 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Author" -1 19
+ 1 {CSTYLE "" -1 -1 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1
+ }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{CSTYLE "Help Variable" -1 25 "Monospa
+ced" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Comment" -1 21 "
+Monospaced" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1 31 "T
+imes New Roman" 1 12 0 128 128 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Atomic \+
+Variable" -1 200 "Times New Roman" 1 12 175 0 175 1 1 2 2 2 2 2 0 0 0 
+1 }{CSTYLE "Plot Text" -1 28 "Times New Roman" 1 8 0 0 0 1 2 2 2 2 2 2
+ 0 0 0 1 }{CSTYLE "Code" -1 201 "Courier New" 1 12 255 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math Italic" -1 3 "Times New Roman" 1 12 0 0 0
+ 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" -1 7 "Times New Roman"
+ 1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold Small" -1 10 "
+Times New Roman" 1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Bold" 
+-1 39 "Times New Roman" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Hel
+p Menus" -1 36 "Times New Roman" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Normal" -1 30 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2
+ 0 0 0 1 }{CSTYLE "Maple Input" -1 0 "Monospaced" 1 12 255 0 0 1 2 1 2
+ 2 1 2 0 0 0 1 }{CSTYLE "Header and Footer" -1 202 "Times New Roman" 1
+ 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Output Labels" -1 29 "Times \+
+New Roman" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37
+ "Times New Roman" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Und
+erlined" -1 44 "Times New Roman" 1 12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }
+{CSTYLE "Text" -1 203 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0
+ 1 }{CSTYLE "Plot Title" -1 27 "Times New Roman" 1 10 0 0 0 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "Default" -1 38 "Times New Roman" 1 12 0 0 0 1 2 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic Bold" -1 40 "Times New Roman" 
+1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Input Placeholder" -1
+ 204 "Courier New" 1 12 200 0 200 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "LaTe
+X" -1 32 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "
+Help Emphasized" -1 22 "Times New Roman" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "Equation Label" -1 205 "Times New Roman" 1 12 0 0 0 1 2 
+1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic" -1 42 "Times New Roman" 1 12 
+0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Prompt" -1 1 "Monospaced" 1 12 0
+ 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold" -1 5 "Times New Rom
+an" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlink" -1 17 "Times
+ New Roman" 1 12 0 128 128 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Caption Tex
+t" -1 206 "Times New Roman" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE 
+"Help Underlined Bold" -1 41 "Times New Roman" 1 12 0 0 0 1 1 1 2 2 2 
+2 0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times New Roman" 1 10 0 0 0 1 2 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times New Rom
+an" 1 12 147 0 15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "2D Input" -1 19 "Tim
+es New Roman" 1 12 255 0 0 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "Help Headin
+g" -1 26 "Times New Roman" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "
+2D Output" -1 20 "Times New Roman" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "2D Inert Output" -1 207 "Times New Roman" 1 12 144 144 144 1
+ 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "Page Number" -1 33 "Times New Roman" 1 
+12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Monospaced
+" 1 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small" -1 
+208 "Times New Roman" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Mat
+h Symbol 2" -1 16 "SymbolPi" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE
+ "2D Math" -1 2 "Times New Roman" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Nonterminal" -1 24 "Monospaced" 1 12 0 0 0 1 2 1 2 2 2 2
+ 0 0 0 1 }{CSTYLE "Annotation Text" -1 209 "Times New Roman" 1 12 0 0 
+0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Maple Name" -1 35 "Times New Ro
+man" 1 12 104 64 92 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined It
+alic" -1 43 "Times New Roman" 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }
+{CSTYLE "Caption Reference" -1 210 "Times New Roman" 1 12 0 0 0 1 2 1 
+2 2 2 2 0 0 0 1 }{CSTYLE "2D Comment" -1 18 "Times New Roman" 1 12 0 0
+ 0 1 2 2 2 2 2 2 0 0 0 1 }{PSTYLE "" -1 223 1 {CSTYLE "" -1 -1 "Arial"
+ 1 16 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "" -1 224 1 {CSTYLE "" -1 -1 "Arial" 1 12 0 0 0 1 2 2 2 2 2 2 
+1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{CSTYLE "" -1 211 "Times New Ro
+man" 1 14 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 212 "Arial" 1 14 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 213 "Times New Roman" 1 14 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 214 "Times New Roman" 1 14 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 215 "Times New Roman" 1 14 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 216 "Times New Roman" 1 14 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 223 "" 0 "" {TEXT 203 55 "Some examples and hints for the integr
+ation with maple:" }}{PARA 0 "" 0 "" {TEXT 217 0 "" }}{PARA 224 "" 0 "
+" {TEXT 203 39 "Indefinite integration of an expression" }}{PARA 0 "> 
+" 0 "" {MPLTEXT 1 0 11 "int(x^2,x);" }{TEXT 217 0 "" }}{PARA 11 "" 1 "
+" {XPPMATH 20 ",$*$I\"xG6\"\"\"$#\"\"\"F&" }}}{EXCHG {PARA 220 "" 0 ""
+ {TEXT 218 36 "Indefinite integration of a function" }}{PARA 215 "> " 
+0 "" {MPLTEXT 1 0 10 "f:=x->x^2;" }{TEXT 219 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I\"fG6\"f*6#I\"xGF$F$6$I)operatorGF$I&arrowGF$F$*$9$\"\"
+#F$F$F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "int(f(x),x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ",$*$I\"xG6\"\"\"$#\"\"\"F&" }}}{EXCHG 
+{PARA 219 "" 0 "" {TEXT 220 32 "An antiderivative is obtained by" }}
+{PARA 218 "> " 0 "" {MPLTEXT 1 0 18 "F:=x-> int(x^2,x);" }{TEXT 221 0 
+"" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I\"FG6\"f*6#I\"xGF$F$6$I)operatorG
+F$I&arrowGF$F$-I$intG6$%*protectedGI(_syslibGF$6$*$9$\"\"#F2F$F$F$" }}
+}{EXCHG {PARA 210 "" 0 "" {TEXT 222 5 "or by" }{TEXT 211 1 " " }}
+{PARA 203 "> " 0 "" {MPLTEXT 1 0 19 "F:=x-> int(f(x),x);" }{TEXT 223 
+0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I\"FG6\"f*6#I\"xGF$F$6$I)operato
+rGF$I&arrowGF$F$-I$intG6$%*protectedGI(_syslibGF$6$-I\"fGF$6#9$F4F$F$F
+$" }}}{EXCHG {PARA 202 "" 0 "" {TEXT 224 54 "Note that maple does not \+
+show the integration constant" }{TEXT 212 1 "." }{TEXT 213 1 " " }}
+{PARA 201 "" 0 "" {TEXT 225 45 "The integral is evaluated at x by the \+
+command" }{TEXT 214 1 " " }}{PARA 200 "> " 0 "" {MPLTEXT 1 0 5 "F(x);"
+ }{TEXT 226 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 ",$*$I\"xG6\"\"\"$#\"
+\"\"F&" }}}{EXCHG {PARA 206 "" 0 "" {TEXT 227 32 "The inert form of in
+tegration is" }{TEXT 215 1 " " }}{PARA 205 "> " 0 "" {MPLTEXT 1 0 15 "
+G:= Int(x^2,x);" }{TEXT 228 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mr
+owG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6%Q$IntF'/%'
+italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6.Q0&ApplyFunction;F'/
+F3Q'normalF'/%&fenceGQ&falseF'/%*separatorGF=/%)stretchyGF=/%*symmetri
+cGF=/%(largeopGF=/%.movablelimitsGF=/%'accentGF=/%'lspaceGQ&0.0emF'/%'
+rspaceGFL/%)equalityGF=-I(mfencedGF$6$-F#6%-F#6#-I%msupGF$6%-F,6%Q\"xF
+'F/F2-I#mnGF$6$Q\"2F'F9/%1superscriptshiftGQ\"0F'-F66.Q\",F'F9F;/F?F1F
+@FBFDFFFHFJ/FNQ,0.3333333emF'FOFenF9" }}}{EXCHG {PARA 204 "" 0 "" 
+{TEXT 229 22 "It can be evaluated by" }{TEXT 216 2 "  " }}{PARA 222 ">
+ " 0 "" {MPLTEXT 1 0 9 "value(G);" }{TEXT 230 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ",$*$I\"xG6\"\"\"$#\"\"\"F&" }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 175 100 1803 1 1 1 1 }{PAGENUMBERS 0
+ 1 2 33 1 1 }

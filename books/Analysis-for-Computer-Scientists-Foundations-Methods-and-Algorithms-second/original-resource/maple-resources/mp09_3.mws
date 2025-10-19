@@ -1,0 +1,45 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 {CSTYLE "" 
+-1 -1 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 0 261 1 {CSTYLE "" -1 -1 "Helvetica" 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Nor
+mal" -1 265 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 0 267 1 {CSTYLE "" -1 
+-1 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "" 0 268 1 {CSTYLE "" -1 -1 "Helvetica" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 256 "" 0 "" {TEXT 256 42 "Simulation of plant growth with L-syst
+ems:" }}{PARA 265 "" 0 "" {TEXT -1 18 "f    means forward" }}{PARA 
+265 "" 0 "" {TEXT -1 127 "p   denotes a rotation by  alpha  radiants (
+p stands for plus)\nm  denotes a rotation by  - alpha  radiants (m sta
+nds for minus)" }}{PARA 267 "" 0 "" {TEXT -1 26 "v   denotes a ramific
+ation" }}{PARA 268 "" 0 "" {TEXT -1 31 "e   denotes the end of a branc
+h" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 261 "" 0 "" {TEXT -1 75 "Th
+e substitution rule is randomly chosen from a set of three possibiliti
+es." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+894 "grow:=proc(axiom::list, rule::procedure, steps::integer, alpha::r
+ealcons, beta::realcons)\nlocal i,lst,plant,pts,tt,xx,yy,xyt,stack,xmi
+n,xmax;\nplant:=axiom;\nfor i from 1 to steps do\n  plant:=map(rule,pl
+ant);\n  # print(plant);\nod;\ntt:=Pi/2; xx:=0; yy:=0; xmin:=0; xmax:=
+0; \npts:=[xx,yy]; lst:=NULL; stack:=[];\nfor i in plant do  \n  if i=
+p then tt:=tt+alpha; \n  elif i=m then tt:=tt-beta; \n  elif i=v then \+
+stack:=[[xx,yy,tt],op(stack)];\n  elif i=e then \n    if nops(stack)<1
+ then \n      ERROR(\"system is not consistent\") \n    fi;\n    xyt:=
+stack[1];   \n    stack:=subsop(1=NULL,stack); \n    xx:=xyt[1]; yy:=x
+yt[2]; tt:=xyt[3];\n    lst:=lst,[pts];\n    pts:=[xx,yy];\n  elif i=f
+ then \n    xx:=xx+cos(tt);\n    yy:=yy+sin(tt);\n    xmin:=min(xmin,e
+valf(xx)); xmax:=max(xmax,evalf(xx));\n    pts:=pts,[xx,yy]\n  fi;\nod
+;\nplot(\{lst,[pts]\}, xmin..xmax, 0..50, axes=none, scaling=CONSTRAIN
+ED, color=navy);\nend:\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+214 "rule:=proc(pf::symbol)\nlocal chance,zz;\nchance:=rand(1..3);\nzz
+:=chance();\nif zz=1 then subs(f=(f,v,p,f,e,f,v,m,f,e,f),pf);\nelif zz
+=2 then subs(f=(f,v,p,f,e,f),pf);\nelif zz=3 then subs(f=(f,v,m,f,e,f)
+,pf);\nfi;\nend:\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "deg:=
+25/180*Pi: " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "for i from 1
+ to 15 do\n  print(i); \n  grow([f],rule,4,deg,deg);\nod;\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 8 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

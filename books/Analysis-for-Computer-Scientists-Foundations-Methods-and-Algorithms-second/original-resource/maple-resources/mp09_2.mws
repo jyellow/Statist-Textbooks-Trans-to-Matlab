@@ -1,0 +1,50 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 257 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 
+{CSTYLE "" -1 -1 "Helvetica" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 256 "" 0 "" {TEXT 256 42 "Simulation of plant growth with L-syst
+ems:" }}{PARA 256 "" 0 "" {TEXT -1 18 "f    means forward" }}{PARA 
+256 "" 0 "" {TEXT -1 127 "p   denotes a rotation by  alpha  radiants (
+p stands for plus)\nm  denotes a rotation by  - alpha  radiants (m sta
+nds for minus)" }}{PARA 256 "" 0 "" {TEXT -1 26 "v   denotes a ramific
+ation" }}{PARA 256 "" 0 "" {TEXT -1 31 "e   denotes the end of a branc
+h" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+907 "grow:=proc(axiom::list, rule::procedure, steps::integer, alpha::r
+ealcons, beta::realcons)\nlocal i,lst,plant,pts,tt,xx,yy,xyt,stack,xmi
+n,xmax;\nplant:=axiom;\nfor i from 1 to steps do\n   plant:=map(rule,p
+lant);\n   # print(plant);\nod;\ntt:=Pi/2; xx:=0; yy:=0; xmin:=0; xmax
+:=0;\npts:=[xx,yy]; lst:=NULL; stack:=[];\nfor i in plant do  \n  if i
+=p then tt:=tt+alpha; \n  elif i=m then tt:=tt-beta; \n  elif i=v then
+ stack:=[[xx,yy,tt],op(stack)];\n  elif i=e then \n    if nops(stack)<
+1 then \n      ERROR(\"system is not consistent\") \n    fi;\n    xyt:
+=stack[1];   \n    stack:=subsop(1=NULL,stack); \n    xx:=xyt[1]; yy:=
+xyt[2]; tt:=xyt[3];\n    lst:=lst,[pts];\n    pts:=[xx,yy];\n  elif i=
+f then \n    xx:=xx+cos(tt);\n    yy:=yy+sin(tt);\n    xmin:=min(xmin,
+evalf(xx)); xmax:=max(xmax,evalf(xx));\n    pts:=pts,[xx,yy]\n  fi;\no
+d;\n# print(lst,[pts]);\nplot(\{lst,[pts]\}, xmin..xmax, axes=none, sc
+aling=CONSTRAINED, color=navy);\nend:" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 257 10 "example 1:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "rule1:=
+a->subs(f=(f,v,p,f,e,f,v,m,f,e,f),a);" }}}{EXCHG {PARA 256 "> " 0 "" 
+{MPLTEXT 1 0 83 "grow([f,p,f,v,p,p,f,p,f,e,v,m,f,m,f,e,f,p,f,v,p,f,p,f
+,e,f,m,f], rule1,0,Pi/7,Pi/7);" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 
+10 "example 2:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 44 "rule2:=a->subs(
+f=(f,v,p,f,e,f,v,m,f,e,f),a);" }}}{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 
+1 0 28 "grow([f],rule2,3,Pi/7,Pi/7);" }}}{EXCHG {PARA 256 "" 0 "" 
+{TEXT -1 13 "example: bush" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 62 "rul
+e3:=x->subs(f=(f,f,p,v,p,f,m,f,m,f,e,m,v,m,f,p,f,p,f,e),x);" }}}
+{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 28 "grow([f],rule3,3,Pi/6,Pi/6
+);" }}}{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 28 "grow([f],rule3,3,Pi
+/6,Pi/7);" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 14 "example: umbel" }}
+{PARA 256 "> " 0 "" {MPLTEXT 1 0 40 "rule4:=a->subs(f=(f,v,p,f,e,v,m,f
+,e),a);" }}}{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 29 "grow([f],rule4
+,5,Pi/8,Pi/10);" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 15 "a last examp
+le:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "rule5:=a->subs(\{x=(f,v,p,x,
+e,f,v,m,x,e,p,x),f=(f,f)\},a);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 29 "grow([x],rule5,5,Pi/7,Pi/10);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 8 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }
